@@ -9,6 +9,7 @@ https://clbmiami2004.github.io
 ## Structure
 
 - `index.html` - professional homepage
+- `contact.html` - professional contact and resume page
 - `support.html` - shared support and contact page
 - `apps/my-meeting-transcriber.html` - app landing page
 - `apps/im-in-danger.html` - app landing page

@@ -286,6 +286,24 @@ h3 {
   margin-bottom: 0;
 }
 
+.linked-card {
+  color: var(--ink);
+  display: block;
+}
+
+.linked-card:hover {
+  border-color: #b8d6ff;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.card-link {
+  display: inline-flex;
+  margin-top: 18px;
+  color: var(--blue);
+  font-weight: 850;
+}
+
 .icon {
   width: 42px;
   height: 42px;
@@ -356,13 +374,13 @@ h3 {
   font-size: 0.84rem;
 }
 
-.professional-links {
+.professional-grid {
   display: grid;
-  gap: 10px;
+  gap: 14px;
   margin-top: 18px;
 }
 
-.professional-links a {
+.professional-card {
   display: block;
   padding: 14px 16px;
   border: 1px solid var(--line);
@@ -371,25 +389,37 @@ h3 {
   color: var(--ink);
 }
 
-.professional-links a:hover {
-  border-color: #b8d6ff;
-  background: #f8fbff;
-  text-decoration: none;
+.professional-card {
+  padding: 18px;
 }
 
-.professional-links span {
+.professional-card p {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.professional-card .button {
+  margin-top: 16px;
+}
+
+.professional-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.professional-card-header strong {
   display: block;
+  font-size: 1.05rem;
+}
+
+.professional-card-header span {
   color: var(--muted);
   font-size: 0.78rem;
   font-weight: 800;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-}
-
-.professional-links strong {
-  display: block;
-  margin-top: 2px;
-  overflow-wrap: anywhere;
 }
 
 .policy-card {

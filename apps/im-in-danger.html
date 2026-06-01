@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="I'm in Danger helps users send danger alerts and share GPS location with trusted people.">
+    <title>I'm in Danger</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M4 13.5V10.5M8 17V7M12 20V4M16 16V8M20 13.5V10.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+          </span>
+          Christian Lorenzo
+        </a>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/privacy/im-in-danger.html">Privacy Policy</a>
+          <a href="/support.html">Support</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div>
+          <span class="eyebrow">Personal safety app</span>
+          <h1>I'm in Danger</h1>
+          <p class="lead">
+            A safety-focused app that helps you alert trusted people when you may be in danger
+            and lets them track your GPS location when you choose to share it.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="/privacy/im-in-danger.html">Privacy Policy</a>
+            <a class="button secondary" href="/support.html">Contact Support</a>
+            <a class="button secondary" href="https://apps.apple.com/us/app/im-in-danger/id1529713871">View on App Store</a>
+          </div>
+        </div>
+
+        <div class="visual-card">
+          <div class="app-window">
+            <div class="window-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="transcript-demo">
+              <div class="app-icon danger-icon" aria-hidden="true">
+                <svg width="46" height="46" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3L20 7V12C20 17 16.5 20.5 12 22C7.5 20.5 4 17 4 12V7L12 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                  <path d="M12 8V13M12 17H12.01" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+                </svg>
+              </div>
+            <div class="demo-line"><strong>Danger alerts</strong><br>Notify trusted contacts when you need help.</div>
+              <div class="demo-line"><strong>Location sharing</strong><br>Share your live location with people you trust when the situation requires it.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Features</span>
+            <h2>Built around urgent communication.</h2>
+          </div>
+          <p>I'm in Danger is designed for moments when reaching trusted people quickly matters.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M12 3L20 7V12C20 17 16.5 20.5 12 22C7.5 20.5 4 17 4 12V7L12 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Safety alerts</h3>
+            <p>Let parents, friends, or family members know that you may be in danger.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M12 21S19 15.5 19 9A7 7 0 0 0 5 9C5 15.5 12 21 12 21Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M12 11.5A2.5 2.5 0 1 0 12 6.5A2.5 2.5 0 0 0 12 11.5Z" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </div>
+            <h3>GPS location</h3>
+            <p>Share your live location with trusted people so they can better understand where you are.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M7 11L11 15L18 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M5 5H19V19H5V5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>User controlled</h3>
+            <p>The app is centered on user-initiated safety actions and clear support information.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span>© <span id="year"></span> Christian Lorenzo.</span>
+        <span><a href="/">Home</a> · <a href="/privacy/im-in-danger.html">Privacy Policy</a></span>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

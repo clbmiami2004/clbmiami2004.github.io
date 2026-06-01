@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Meeting Transcriber records meetings, creates transcripts, summaries, and action items across Apple devices.">
+    <title>My Meeting Transcriber</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M4 13.5V10.5M8 17V7M12 20V4M16 16V8M20 13.5V10.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+          </span>
+          Christian Lorenzo
+        </a>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/privacy/my-meeting-transcriber.html">Privacy Policy</a>
+          <a href="https://github.com/clbmiami2004/my-meeting-transcriber">GitHub</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div>
+          <span class="eyebrow">iPhone · iPad · Mac · Apple Watch</span>
+          <h1>My Meeting Transcriber</h1>
+          <p class="lead">
+            A personal meeting assistant for capturing spoken information, reviewing searchable transcripts,
+            summarizing what mattered, and turning conversations into clear action items.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="/privacy/my-meeting-transcriber.html">Privacy Policy</a>
+            <a class="button secondary" href="https://github.com/clbmiami2004">Contact Support</a>
+          </div>
+        </div>
+
+        <div class="visual-card">
+          <div class="app-window">
+            <div class="window-bar">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="transcript-demo">
+              <div class="wave" aria-hidden="true">
+                <span></span><span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <div class="demo-line"><strong>Transcript</strong><br>Search, review, translate, and jump through the audio by timestamp.</div>
+              <div class="demo-line"><strong>Action Items</strong><br>Review extracted tasks before treating them as real commitments.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Features</span>
+            <h2>Designed for meeting overload.</h2>
+          </div>
+          <p>Built for people who need a searchable memory of meetings without making recording hidden or confusing.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M12 3V21M8 7V17M4 10V14M16 7V17M20 10V14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Manual Recording</h3>
+            <p>Start and stop recording yourself, with a visible recording state and a privacy notice before capture.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M5 5H19V19H5V5ZM8 9H16M8 13H16M8 17H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Searchable Transcript</h3>
+            <p>Review transcript text, search within a meeting, and follow along while the audio plays.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <path d="M8 12L11 15L17 8M5 5H19V19H5V5Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Summary and Tasks</h3>
+            <p>Create a meeting summary and candidate action items for review, editing, and completion tracking.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container">
+        <div class="section-header">
+          <div>
+            <span class="eyebrow">Privacy</span>
+            <h2>Local-first by design.</h2>
+          </div>
+          <p>Meeting audio and notes are designed to stay under the user’s control. Optional sync can be enabled by the user when desired.</p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <h3>Clear recording intent</h3>
+            <p>The app is for personal productivity and does not support covert or always-on background recording.</p>
+          </article>
+          <article class="card">
+            <h3>User-controlled storage</h3>
+            <p>Meetings, transcripts, summaries, and tasks are stored as app data. Users can delete meetings when they no longer need them.</p>
+          </article>
+          <article class="card">
+            <h3>Policy available</h3>
+            <p>The App Store privacy policy URL can point directly to this site.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span>© <span id="year"></span> Christian Lorenzo.</span>
+        <span><a href="/">Home</a> · <a href="/privacy/my-meeting-transcriber.html">Privacy Policy</a></span>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

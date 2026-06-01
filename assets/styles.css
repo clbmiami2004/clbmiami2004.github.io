@@ -372,12 +372,15 @@ h3 {
   padding-left: 22px;
 }
 
+.support-panel,
 .contact-list {
   display: grid;
-  gap: 14px;
+  gap: 22px;
   margin-top: 22px;
 }
 
+.support-email,
+.support-app-card,
 .contact-row {
   display: flex;
   align-items: center;
@@ -389,15 +392,63 @@ h3 {
   background: #fff;
 }
 
+.support-email {
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 24px;
+  background: linear-gradient(180deg, #ffffff, #f8fbff);
+}
+
+.support-email h2,
+.support-apps h2 {
+  margin: 0;
+  font-size: 1.35rem;
+  letter-spacing: -0.03em;
+}
+
+.support-email p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.support-label {
+  color: var(--blue-dark);
+  font-size: 0.8rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.support-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--line), transparent);
+}
+
+.support-apps {
+  display: grid;
+  gap: 14px;
+}
+
+.support-apps .support-label {
+  margin-bottom: -8px;
+}
+
+.support-app-card {
+  box-shadow: none;
+}
+
+.support-app-card p,
 .contact-row p {
   margin: 4px 0 0;
   color: var(--muted);
 }
 
+.support-app-card strong,
 .contact-row strong {
   display: block;
 }
 
+.support-app-card .button,
 .contact-row .button {
   flex: 0 0 auto;
   margin: 0;
@@ -441,6 +492,7 @@ h3 {
     grid-template-columns: 1fr;
   }
 
+  .support-app-card,
   .contact-row {
     align-items: flex-start;
     flex-direction: column;

@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Product notes and professional writing by Christian Lorenzo.">
+    <title>Writing | Christian Lorenzo</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+              <path d="M4 13.5V10.5M8 17V7M12 20V4M16 16V8M20 13.5V10.5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+          </span>
+          Christian Lorenzo
+        </a>
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="/#apps">Apps</a>
+          <a href="/contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <article class="policy-card">
+        <span class="eyebrow">Writing</span>
+        <h1>Notes, Updates, and Professional Writing</h1>
+        <p>
+          A dedicated place for app product notes, release thinking, technical reflections,
+          professional writing, and future articles.
+        </p>
+
+        <section class="writing-section" aria-labelledby="product-notes-heading">
+          <div class="writing-section-header">
+            <div>
+              <span class="support-label">Product writing</span>
+              <h2 id="product-notes-heading">App Product Notes</h2>
+              <p>
+                Product notes for each app live here so app updates, positioning, and roadmap thinking
+                stay separate from broader professional writing.
+              </p>
+            </div>
+          </div>
+
+          <div class="note-grid">
+            <article class="card note-card">
+              <span class="note-meta">My Meeting Transcriber</span>
+              <h3>Local-first meeting memory for Apple devices</h3>
+              <p>
+                My Meeting Transcriber is being built around a simple but important idea:
+                meetings create a lot of cognitive load, and people need a reliable way to capture
+                what was said without turning the app into hidden surveillance.
+              </p>
+              <p>
+                The product focuses on manual recording, clear recording notice, searchable transcripts,
+                audio playback, summaries, action items, and cross-device access across iPhone, iPad,
+                Mac, and Apple Watch.
+              </p>
+              <ul>
+                <li>Apple-first transcription remains the preferred transcription path where supported.</li>
+                <li>Meetings, transcripts, summaries, translations, and tasks are organized per meeting.</li>
+                <li>The app is designed to support local-first use, with optional iCloud sync for users who want it.</li>
+              </ul>
+              <div class="actions">
+                <a class="button secondary" href="/apps/my-meeting-transcriber.html">App Details</a>
+                <a class="button secondary" href="/privacy/my-meeting-transcriber.html">Privacy Policy</a>
+              </div>
+            </article>
+
+            <article class="card note-card">
+              <span class="note-meta">I'm in Danger</span>
+              <h3>A direct safety tool for urgent location sharing</h3>
+              <p>
+                I'm in Danger is a safety-focused app designed to help someone quickly let trusted
+                people know that they may be in danger and share GPS location when help or awareness
+                is needed.
+              </p>
+              <p>
+                The product is intentionally straightforward: the value is speed, clarity, and getting
+                the right information to parents, friends, or family members in a stressful moment.
+              </p>
+              <ul>
+                <li>The app centers on user-initiated danger alerts.</li>
+                <li>Location sharing is positioned as a trusted-contact safety feature.</li>
+                <li>The privacy policy clearly explains location handling and service-provider access.</li>
+              </ul>
+              <div class="actions">
+                <a class="button secondary" href="/apps/im-in-danger.html">App Details</a>
+                <a class="button secondary" href="/privacy/im-in-danger.html">Privacy Policy</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="writing-section" aria-labelledby="professional-writing-heading">
+          <div class="writing-section-header">
+            <div>
+              <span class="support-label">Professional writing</span>
+              <h2 id="professional-writing-heading">Professional Blog and Notes</h2>
+              <p>
+                This section is reserved for broader professional writing: mobile architecture,
+                engineering lessons, leadership notes, app development reflections, and career updates.
+              </p>
+            </div>
+          </div>
+
+          <div class="note-grid">
+            <article class="card note-card empty-note">
+              <span class="note-meta">Coming soon</span>
+              <h3>Mobile architecture notes</h3>
+              <p>
+                A future space for writing about Swift, SwiftUI, iOS architecture, app reliability,
+                product thinking, and lessons from building real applications.
+              </p>
+            </article>
+
+            <article class="card note-card empty-note">
+              <span class="note-meta">Coming soon</span>
+              <h3>Professional updates</h3>
+              <p>
+                A place for career updates, project writeups, portfolio notes, and public posts that
+                do not belong inside a specific app product page.
+              </p>
+            </article>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <span>© <span id="year"></span> Christian Lorenzo.</span>
+        <span><a href="/">Home</a> · <a href="/contact.html">Contact</a></span>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

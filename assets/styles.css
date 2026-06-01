@@ -422,6 +422,79 @@ h3 {
   text-transform: uppercase;
 }
 
+.writing-section {
+  display: grid;
+  gap: 22px;
+  margin-top: 30px;
+}
+
+.writing-section + .writing-section {
+  margin-top: 44px;
+}
+
+.writing-section-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.writing-section-header h2 {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+}
+
+.writing-section-header p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  max-width: 62ch;
+}
+
+.note-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.note-card {
+  padding: 24px;
+}
+
+.note-card h3 {
+  font-size: 1.45rem;
+}
+
+.note-meta {
+  color: var(--blue-dark);
+  display: inline-flex;
+  font-size: 0.82rem;
+  font-weight: 850;
+  letter-spacing: 0.07em;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.note-card p,
+.note-card li {
+  color: var(--muted);
+}
+
+.note-card ul {
+  padding-left: 20px;
+}
+
+.note-card .actions {
+  margin-top: 22px;
+}
+
+.empty-note {
+  border: 1px dashed #b9c7d8;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.empty-note h3 {
+  color: var(--ink);
+}
+
 .policy-card {
   padding: clamp(24px, 5vw, 48px);
   margin: 42px auto;
@@ -558,6 +631,10 @@ h3 {
   }
 
   .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .note-grid {
     grid-template-columns: 1fr;
   }
 

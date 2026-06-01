@@ -10,6 +10,7 @@ https://clbmiami2004.github.io
 
 - `index.html` - professional homepage
 - `contact.html` - professional contact and resume page
+- `writing.html` - writing hub with app product notes and professional writing
 - `support.html` - shared support and contact page
 - `apps/my-meeting-transcriber.html` - app landing page
 - `apps/im-in-danger.html` - app landing page
